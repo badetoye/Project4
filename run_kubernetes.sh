@@ -5,8 +5,8 @@
 # Step 1:
 # This is your Docker ID/path
 # dockerpath=<>
-dockerpath=mulero44/proj4repo:latest
-dockerimage=proj4repo
+dockerpath=mulero44/prediction:latest
+dockerimage=prediction
 
 # Step 2
 # Run the Docker Hub container with kubernetes
