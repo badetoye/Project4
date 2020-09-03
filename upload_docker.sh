@@ -6,7 +6,7 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath=mulero44/proj4repo:latest
+dockerpath=mulero44/prediction:latest
 local_tag=prediction:latest
 docker tag $local_tag $dockerpath
 
