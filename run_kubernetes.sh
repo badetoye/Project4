@@ -6,7 +6,7 @@
 # This is your Docker ID/path
 # dockerpath=<>
 dockerpath=mulero44/proj4repo:latest
-dockerimage=proj4repo
+dockerimage=letsbuild
 
 # Step 2
 # Run the Docker Hub container with kubernetes
