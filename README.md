@@ -19,7 +19,7 @@ Our project goal is to operationalize this working, machine learning microservic
 - Deploy a container using Kubernetes and make a prediction
 - Upload a complete Github repo with CircleCI to indicate that our code has been tested
 
-**Files and Python Scripts**
+**Files and Script files**
 - app.py - a pre-trained python model which serves the prediction.
 - config.yml - a circleci config file contained in the .circleci which describes the steps to run the project in circleci.
 - run_kubernetes.sh - a script file which executes the commands to deploy the kubernetes cluster.
