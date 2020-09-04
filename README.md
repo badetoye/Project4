@@ -11,13 +11,13 @@ This project tests your ability to operationalize a Python flask app—in a prov
 ## Project Tasks
 Our project goal is to operationalize this working, machine learning microservice using kubernetes, which is an open-source system for automating the management of containerized applications. In this project we:
 
-Test our project code using linting
-Complete a Dockerfile to containerize this application
-Deploy our containerized application using Docker and make a prediction
-Improve the log statements in the source code for this application
-Configure Kubernetes and create a Kubernetes cluster
-Deploy a container using Kubernetes and make a prediction
-Upload a complete Github repo with CircleCI to indicate that our code has been tested
+- Test our project code using linting
+- Complete a Dockerfile to containerize this application
+- Deploy our containerized application using Docker and make a prediction
+- Improve the log statements in the source code for this application
+- Configure Kubernetes and create a Kubernetes cluster
+- Deploy a container using Kubernetes and make a prediction
+- Upload a complete Github repo with CircleCI to indicate that our code has been tested
 
 **Files and Python Scripts**
 - app.py - a pre-trained python model which serves the prediction.
@@ -37,8 +37,6 @@ Upload a complete Github repo with CircleCI to indicate that our code has been t
 - Run app.py => `python app.py`(standalone)
 - Run script in docker => `./run_docker.sh`
 - Run kubernetes => `./run_kubernetes.sh`
-::1:: ::cofee::
-
 
 
 
