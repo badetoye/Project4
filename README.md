@@ -1,6 +1,6 @@
 [![circleci](https://circleci.com/gh/badetoye/Project4.svg?style=svg)](https://circleci.com/gh/badetoye/Project4) 
 
-##Operationalize a Machine Learning Microservice API
+## Operationalize a Machine Learning Microservice API
 
 #Project Summary
 This project is about operationalizing a Machine Learning microservice API.
@@ -8,7 +8,7 @@ A pre-trained, sklearn model that has been trained to predict housing prices in 
 
 This project tests your ability to operationalize a Python flask app—in a provided file, app.py—that serves out predictions (inference) about housing prices through API calls.
 
-#Project Tasks
+# Project Tasks
 Our project goal is to operationalize this working, machine learning microservice using kubernetes, which is an open-source system for automating the management of containerized applications. In this project we:
 
 Test our project code using linting
@@ -20,16 +20,16 @@ Deploy a container using Kubernetes and make a prediction
 Upload a complete Github repo with CircleCI to indicate that our code has been tested
 
 **Files and Python Scripts**
-> app.py - a pre-trained python model which serves the prediction.
-> config.yml - a circleci config file contained in the .circleci which describes the steps to run the project in circleci.
-> run_kubernetes.sh - a script file which executes the commands to deploy the kubernetes cluster.
-> Makefile - describes the environment setup for the project and lints the python and docker files.
-> upload_docker.sh - a script file which executes the commands to upload the docker image to dockerhub.
-> run_docker.sh - a script file which executes the commands to deploy the docker image.
-> Dockerfile - a docker confi file used to build the docker image.
-> requirements.txt - a file which specifies the required packages to be installed for the project.
+- app.py - a pre-trained python model which serves the prediction.
+- config.yml - a circleci config file contained in the .circleci which describes the steps to run the project in circleci.
+- run_kubernetes.sh - a script file which executes the commands to deploy the kubernetes cluster.
+- Makefile - describes the environment setup for the project and lints the python and docker files.
+- upload_docker.sh - a script file which executes the commands to upload the docker image to dockerhub.
+- run_docker.sh - a script file which executes the commands to deploy the docker image.
+- Dockerfile - a docker confi file used to build the docker image.
+- requirements.txt - a file which specifies the required packages to be installed for the project.
 
-#Environment Setup
+# Environment Setup
 - create a virtualenv & activate it
 - Run `make install` to install dependencies
 - Setup & configure docker locally
