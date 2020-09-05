@@ -1,8 +1,11 @@
-(.proj4) ubuntu@ip-172-31-36-4:~/Project4$ ./run_kubernetes.sh
-Flag --generator has been deprecated, has no effect and will be removed in the future.
-Error from server (AlreadyExists): pods "prediction" already exists
-NAME         READY   STATUS    RESTARTS   AGE
-prediction   1/1     Running   1          37m
-Forwarding from 127.0.0.1:8000 -> 80
-Forwarding from [::1]:8000 -> 80
-Handling connection for 8000
+[2020-09-05 12:14:34,229] INFO in app: JSON payload:
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2020-09-05 12:14:34,245] INFO in app: Inference payload DataFrame:
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-09-05 12:14:34,257] INFO in app: Scaling Payload:
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-09-05 12:14:34,262] INFO in app: The log message is.
+[20.35373177134412]
+172.17.0.1 - - [05/Sep/2020 12:14:34] "POST /predict HTTP/1.1" 200 -
